@@ -2,6 +2,7 @@
 
 require 'test_helper'
 require 'weese/rail/metro_rail'
+require 'weese/bus/metro_bus'
 require 'weese/location'
 
 API_KEY = '9e38c3eab34c4e6c990828002828f5ed'
@@ -116,6 +117,26 @@ class MetroRailTest < Minitest::Test
     assert_instance_of(
       Hash,
       @client.stations(Weese::Rail::Line::BL)
+    )
+  end
+end
+
+class TestMetroBus < MiniTest::Test
+  def setup
+    @client = Weese::Bus::MetroBus.new API_KEY
+  end
+
+  def test_next_buses
+    assert_instance_of(
+      Hash,
+      @client.next_buses(Weese::Bus::Stop.new(1_001_195))
+    )
+  end
+
+  def test_stop_schedule
+    assert_instance_of(
+      Hash,
+      @client.stop_schedule(Weese::Bus::Stop.new(1_001_195))
     )
   end
 end

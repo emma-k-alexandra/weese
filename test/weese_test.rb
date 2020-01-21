@@ -6,7 +6,7 @@ require 'weese/rail/metro_rail'
 require 'weese/bus/metro_bus'
 require 'weese/location'
 
-API_KEY = '9e38c3eab34c4e6c990828002828f5ed'
+API_KEY = '9e38c3eab34c4e6c990828002828f5ed' # WMATA API key for testing, get yours at {http://developer.wmata.com}
 
 VCR.configure do |config|
   config.cassette_library_dir = 'test/fixtures'

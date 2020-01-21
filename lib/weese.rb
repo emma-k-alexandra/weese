@@ -3,5 +3,6 @@
 require 'weese/version'
 
 module Weese
-  class Error < StandardError; end
+  # Error output buy all functions in this gem
+  class WeeseError < StandardError; end
 end

@@ -2,17 +2,23 @@
 
 module Weese
   module Rail
+    # WMATA Line Codes and Line helper methods
     module Line
-      RD = 'RD'
-      BL = 'BL'
-      YL = 'YL'
-      OR = 'OR'
-      GR = 'GR'
-      SV = 'SV'
-      YLRP = 'YLRP'
+      RD = 'RD' # Red line code
+      BL = 'BL' # Blue line code
+      YL = 'YL' # Yellow line code
+      OR = 'OR' # Orange line code
+      GR = 'GR' # Green line code
+      SV = 'SV' # Silver line code
+      YLRP = 'YLRP' # Yellow Line Rush Plus line code. Deprecated.
 
       # Extensions to String relating to Lines
       class String
+        #
+        # Checks if this {String} is a Line code
+        #
+        # @return [bool] If the current string is a Line Code
+        #
         def line?
           case self
           when Line::RD, Line::BL, Line::YL, Line::YL, Line::OR, Line::GR, Line::SV, Line::YLRP
@@ -22,7 +28,12 @@ module Weese
           end
         end
 
-        def station_name
+        #
+        # Line name for the current Line
+        #
+        # @return [String] Human-presentable Line name
+        #
+        def line_name
           case self
           when Line::RD
             'Red'
@@ -49,6 +60,16 @@ module Weese
     module RequiresLine
       include Requests::Requester
 
+      #
+      # Station location and address information for all stations on the given line.
+      # {https://developer.wmata.com/docs/services/5476364f031f590f38092507/operations/5476364f031f5909e4fe330c WMATA Documentation}
+      #
+      # @param [String] line A Line code
+      #
+      # @raise [WeeseError] If request or JSON parse fails
+      #
+      # @return [Hash] JSON Response
+      #
       def stations(line = nil)
         query = line ? { LineCode: line } : {}
 

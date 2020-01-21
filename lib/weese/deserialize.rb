@@ -7,7 +7,7 @@ class String
   #
   # Convert this {String} into a JSON Hash
   #
-  # @raises [WeeseError] If JSON parse fails
+  # @raise [WeeseError] If JSON parse fails
   #
   # @return [Hash] Hash representing the given JSON
   #

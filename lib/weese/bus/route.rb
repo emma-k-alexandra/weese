@@ -574,7 +574,7 @@ module Weese
       # {https://developer.wmata.com/docs/services/54763629281d83086473f231/operations/5476362a281d830c946a3d6b}
       #
       # @note Date: Omit date for current date
-      # @Note Variations: Whether or not to include variations if a base route is specified in Route. For example, if B30 is specified and IncludingVariations is set to true, data for all variations of B30 such as B30v1, B30v2, etc. will be returned.
+      # @note Variations: Whether or not to include variations if a base route is specified in Route. For example, if B30 is specified and IncludingVariations is set to true, data for all variations of B30 such as B30v1, B30v2, etc. will be returned.
       #
       # @param [String] route A Route ID
       # @param [bool] including_variations If variations of Route should be included

@@ -11,7 +11,6 @@ Gem::Specification.new do |spec|
   spec.email         = ['emma@emma.sh']
 
   spec.summary       = 'API Adapter for the WMATA API'
-  spec.description   = 'Longer description goes here'
   spec.homepage      = 'https://github.com/emma-k-alexandra/weese'
   spec.license       = 'MIT'
 
@@ -33,8 +32,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'faraday', '~> 0.17.3'
-  spec.add_dependency 'vcr', '~> 5.0.0'
-
+  
+  spec.add_development_dependency 'vcr', '~> 5.0.0'
   spec.add_development_dependency 'bundler', '~> 2.1.a'
   spec.add_development_dependency 'minitest', '~> 5.0'
   spec.add_development_dependency 'rake', '~> 12.0'

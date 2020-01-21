@@ -2,5 +2,5 @@
 
 # Weese, a WMATA API gem
 module Weese
-  VERSION = '1.0.0' # Version
+  VERSION = '1.0.2' # Version
 end

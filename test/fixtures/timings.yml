@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wmata.com/Rail.svc/json/jStationTimes?StationCode=A01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.3
+      api_key:
+      - 9e38c3eab34c4e6c990828002828f5ed
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - no-cache
+      pragma:
+      - no-cache
+      content-length:
+      - '358'
+      content-type:
+      - application/json; charset=utf-8
+      expires:
+      - "-1"
+      vary:
+      - Accept-Encoding
+      arr-disable-session-affinity:
+      - 'True'
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      date:
+      - Tue, 21 Jan 2020 17:16:18 GMT
+      connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"StationTimes":[{"Code":"A01","StationName":"Metro Center","Monday":{"OpeningTime":"05:14","FirstTrains":[{"Time":"05:31","DestinationStation":"A15"},{"Time":"05:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"23:36","DestinationStation":"A15"},{"Time":"23:36","DestinationStation":"B11"}]},"Tuesday":{"OpeningTime":"05:14","FirstTrains":[{"Time":"05:31","DestinationStation":"A15"},{"Time":"05:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"23:36","DestinationStation":"A15"},{"Time":"23:36","DestinationStation":"B11"}]},"Wednesday":{"OpeningTime":"05:14","FirstTrains":[{"Time":"05:31","DestinationStation":"A15"},{"Time":"05:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"23:36","DestinationStation":"A15"},{"Time":"23:36","DestinationStation":"B11"}]},"Thursday":{"OpeningTime":"05:14","FirstTrains":[{"Time":"05:31","DestinationStation":"A15"},{"Time":"05:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"23:36","DestinationStation":"A15"},{"Time":"23:36","DestinationStation":"B11"}]},"Friday":{"OpeningTime":"05:14","FirstTrains":[{"Time":"05:31","DestinationStation":"A15"},{"Time":"05:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"01:06","DestinationStation":"A15"},{"Time":"01:06","DestinationStation":"B11"}]},"Saturday":{"OpeningTime":"07:14","FirstTrains":[{"Time":"07:31","DestinationStation":"A15"},{"Time":"07:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"01:06","DestinationStation":"A15"},{"Time":"01:06","DestinationStation":"B11"}]},"Sunday":{"OpeningTime":"08:14","FirstTrains":[{"Time":"08:31","DestinationStation":"A15"},{"Time":"08:39","DestinationStation":"B11"}],"LastTrains":[{"Time":"23:06","DestinationStation":"A15"},{"Time":"23:06","DestinationStation":"B11"}]}}]}'
+    http_version: 
+  recorded_at: Tue, 21 Jan 2020 17:16:18 GMT
+recorded_with: VCR 5.0.0

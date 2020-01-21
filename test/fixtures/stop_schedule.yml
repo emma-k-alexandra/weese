@@ -1,0 +1,213 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wmata.com/Bus.svc/json/jStopSchedule?StopID=1001195
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.3
+      api_key:
+      - 9e38c3eab34c4e6c990828002828f5ed
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - no-cache
+      pragma:
+      - no-cache
+      content-length:
+      - '4395'
+      content-type:
+      - application/json; charset=utf-8
+      expires:
+      - "-1"
+      vary:
+      - Accept-Encoding
+      arr-disable-session-affinity:
+      - 'True'
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      date:
+      - Tue, 21 Jan 2020 17:16:17 GMT
+      connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Stop":{"StopID":"1001195","Name":"7TH ST + MASSACHUSETTS AVE","Lon":-77.021850,"Lat":38.901901,"Routes":["70","74"]},"ScheduleArrivals":[{"ScheduleTime":"2020-01-21T04:05:39","DirectionNum":"0","StartTime":"2020-01-21T04:00:00","EndTime":"2020-01-21T04:35:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110071020"},{"ScheduleTime":"2020-01-21T04:29:39","DirectionNum":"0","StartTime":"2020-01-21T04:24:00","EndTime":"2020-01-21T04:59:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110072020"},{"ScheduleTime":"2020-01-21T04:53:39","DirectionNum":"0","StartTime":"2020-01-21T04:48:00","EndTime":"2020-01-21T05:23:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110073020"},{"ScheduleTime":"2020-01-21T05:17:24","DirectionNum":"0","StartTime":"2020-01-21T05:03:00","EndTime":"2020-01-21T05:18:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110934020"},{"ScheduleTime":"2020-01-21T05:17:55","DirectionNum":"0","StartTime":"2020-01-21T05:12:00","EndTime":"2020-01-21T05:54:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110074020"},{"ScheduleTime":"2020-01-21T05:31:55","DirectionNum":"0","StartTime":"2020-01-21T05:26:00","EndTime":"2020-01-21T06:08:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110069020"},{"ScheduleTime":"2020-01-21T05:42:24","DirectionNum":"0","StartTime":"2020-01-21T05:28:00","EndTime":"2020-01-21T05:43:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110933020"},{"ScheduleTime":"2020-01-21T05:45:55","DirectionNum":"0","StartTime":"2020-01-21T05:40:00","EndTime":"2020-01-21T06:22:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110068020"},{"ScheduleTime":"2020-01-21T06:00:03","DirectionNum":"0","StartTime":"2020-01-21T05:54:00","EndTime":"2020-01-21T06:39:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110067020"},{"ScheduleTime":"2020-01-21T06:02:24","DirectionNum":"0","StartTime":"2020-01-21T05:48:00","EndTime":"2020-01-21T06:03:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110932020"},{"ScheduleTime":"2020-01-21T06:14:03","DirectionNum":"0","StartTime":"2020-01-21T06:08:00","EndTime":"2020-01-21T06:53:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110070020"},{"ScheduleTime":"2020-01-21T06:22:24","DirectionNum":"0","StartTime":"2020-01-21T06:08:00","EndTime":"2020-01-21T06:23:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110935020"},{"ScheduleTime":"2020-01-21T06:27:03","DirectionNum":"0","StartTime":"2020-01-21T06:21:00","EndTime":"2020-01-21T07:06:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110075020"},{"ScheduleTime":"2020-01-21T06:40:10","DirectionNum":"0","StartTime":"2020-01-21T06:34:00","EndTime":"2020-01-21T07:24:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110076020"},{"ScheduleTime":"2020-01-21T06:47:16","DirectionNum":"0","StartTime":"2020-01-21T06:29:00","EndTime":"2020-01-21T06:48:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110931020"},{"ScheduleTime":"2020-01-21T06:53:10","DirectionNum":"0","StartTime":"2020-01-21T06:47:00","EndTime":"2020-01-21T07:37:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110077020"},{"ScheduleTime":"2020-01-21T07:06:10","DirectionNum":"0","StartTime":"2020-01-21T07:00:00","EndTime":"2020-01-21T07:50:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110078020"},{"ScheduleTime":"2020-01-21T07:07:16","DirectionNum":"0","StartTime":"2020-01-21T06:49:00","EndTime":"2020-01-21T07:08:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110930020"},{"ScheduleTime":"2020-01-21T07:18:26","DirectionNum":"0","StartTime":"2020-01-21T07:12:00","EndTime":"2020-01-21T08:08:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110079020"},{"ScheduleTime":"2020-01-21T07:27:16","DirectionNum":"0","StartTime":"2020-01-21T07:09:00","EndTime":"2020-01-21T07:28:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110929020"},{"ScheduleTime":"2020-01-21T07:30:26","DirectionNum":"0","StartTime":"2020-01-21T07:24:00","EndTime":"2020-01-21T08:20:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110080020"},{"ScheduleTime":"2020-01-21T07:42:16","DirectionNum":"0","StartTime":"2020-01-21T07:21:00","EndTime":"2020-01-21T07:43:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110928020"},{"ScheduleTime":"2020-01-21T07:42:26","DirectionNum":"0","StartTime":"2020-01-21T07:36:00","EndTime":"2020-01-21T08:32:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110081020"},{"ScheduleTime":"2020-01-21T07:54:16","DirectionNum":"0","StartTime":"2020-01-21T07:33:00","EndTime":"2020-01-21T07:55:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110927020"},{"ScheduleTime":"2020-01-21T07:54:26","DirectionNum":"0","StartTime":"2020-01-21T07:48:00","EndTime":"2020-01-21T08:44:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110065020"},{"ScheduleTime":"2020-01-21T08:06:16","DirectionNum":"0","StartTime":"2020-01-21T07:45:00","EndTime":"2020-01-21T08:07:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110926020"},{"ScheduleTime":"2020-01-21T08:06:26","DirectionNum":"0","StartTime":"2020-01-21T08:00:00","EndTime":"2020-01-21T08:56:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110082020"},{"ScheduleTime":"2020-01-21T08:18:16","DirectionNum":"0","StartTime":"2020-01-21T07:57:00","EndTime":"2020-01-21T08:19:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110925020"},{"ScheduleTime":"2020-01-21T08:18:26","DirectionNum":"0","StartTime":"2020-01-21T08:12:00","EndTime":"2020-01-21T09:08:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110083020"},{"ScheduleTime":"2020-01-21T08:30:16","DirectionNum":"0","StartTime":"2020-01-21T08:09:00","EndTime":"2020-01-21T08:31:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110924020"},{"ScheduleTime":"2020-01-21T08:32:26","DirectionNum":"0","StartTime":"2020-01-21T08:24:00","EndTime":"2020-01-21T09:21:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110084020"},{"ScheduleTime":"2020-01-21T08:42:16","DirectionNum":"0","StartTime":"2020-01-21T08:21:00","EndTime":"2020-01-21T08:43:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110923020"},{"ScheduleTime":"2020-01-21T08:44:26","DirectionNum":"0","StartTime":"2020-01-21T08:36:00","EndTime":"2020-01-21T09:33:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110085020"},{"ScheduleTime":"2020-01-21T08:56:26","DirectionNum":"0","StartTime":"2020-01-21T08:48:00","EndTime":"2020-01-21T09:45:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110086020"},{"ScheduleTime":"2020-01-21T08:58:16","DirectionNum":"0","StartTime":"2020-01-21T08:37:00","EndTime":"2020-01-21T08:59:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110922020"},{"ScheduleTime":"2020-01-21T09:08:26","DirectionNum":"0","StartTime":"2020-01-21T09:00:00","EndTime":"2020-01-21T09:57:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110087020"},{"ScheduleTime":"2020-01-21T09:14:16","DirectionNum":"0","StartTime":"2020-01-21T08:53:00","EndTime":"2020-01-21T09:15:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110921020"},{"ScheduleTime":"2020-01-21T09:20:26","DirectionNum":"0","StartTime":"2020-01-21T09:12:00","EndTime":"2020-01-21T10:09:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110088020"},{"ScheduleTime":"2020-01-21T09:32:16","DirectionNum":"0","StartTime":"2020-01-21T09:11:00","EndTime":"2020-01-21T09:33:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110920020"},{"ScheduleTime":"2020-01-21T09:32:26","DirectionNum":"0","StartTime":"2020-01-21T09:24:00","EndTime":"2020-01-21T10:21:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110089020"},{"ScheduleTime":"2020-01-21T09:44:26","DirectionNum":"0","StartTime":"2020-01-21T09:36:00","EndTime":"2020-01-21T10:33:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110090020"},{"ScheduleTime":"2020-01-21T09:50:41","DirectionNum":"0","StartTime":"2020-01-21T09:27:00","EndTime":"2020-01-21T09:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110919020"},{"ScheduleTime":"2020-01-21T09:56:26","DirectionNum":"0","StartTime":"2020-01-21T09:48:00","EndTime":"2020-01-21T10:45:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110092020"},{"ScheduleTime":"2020-01-21T10:09:34","DirectionNum":"0","StartTime":"2020-01-21T10:00:00","EndTime":"2020-01-21T10:59:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110093020"},{"ScheduleTime":"2020-01-21T10:10:41","DirectionNum":"0","StartTime":"2020-01-21T09:47:00","EndTime":"2020-01-21T10:12:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110918020"},{"ScheduleTime":"2020-01-21T10:21:34","DirectionNum":"0","StartTime":"2020-01-21T10:12:00","EndTime":"2020-01-21T11:11:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110094020"},{"ScheduleTime":"2020-01-21T10:30:41","DirectionNum":"0","StartTime":"2020-01-21T10:07:00","EndTime":"2020-01-21T10:32:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110917020"},{"ScheduleTime":"2020-01-21T10:33:34","DirectionNum":"0","StartTime":"2020-01-21T10:24:00","EndTime":"2020-01-21T11:23:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110091020"},{"ScheduleTime":"2020-01-21T10:45:34","DirectionNum":"0","StartTime":"2020-01-21T10:36:00","EndTime":"2020-01-21T11:35:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110137020"},{"ScheduleTime":"2020-01-21T10:50:41","DirectionNum":"0","StartTime":"2020-01-21T10:27:00","EndTime":"2020-01-21T10:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110916020"},{"ScheduleTime":"2020-01-21T10:57:34","DirectionNum":"0","StartTime":"2020-01-21T10:48:00","EndTime":"2020-01-21T11:47:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110095020"},{"ScheduleTime":"2020-01-21T11:09:34","DirectionNum":"0","StartTime":"2020-01-21T11:00:00","EndTime":"2020-01-21T11:59:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110096020"},{"ScheduleTime":"2020-01-21T11:10:41","DirectionNum":"0","StartTime":"2020-01-21T10:47:00","EndTime":"2020-01-21T11:12:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110915020"},{"ScheduleTime":"2020-01-21T11:21:34","DirectionNum":"0","StartTime":"2020-01-21T11:12:00","EndTime":"2020-01-21T12:11:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110097020"},{"ScheduleTime":"2020-01-21T11:30:41","DirectionNum":"0","StartTime":"2020-01-21T11:07:00","EndTime":"2020-01-21T11:32:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110914020"},{"ScheduleTime":"2020-01-21T11:33:34","DirectionNum":"0","StartTime":"2020-01-21T11:24:00","EndTime":"2020-01-21T12:23:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110099020"},{"ScheduleTime":"2020-01-21T11:45:34","DirectionNum":"0","StartTime":"2020-01-21T11:36:00","EndTime":"2020-01-21T12:35:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110100020"},{"ScheduleTime":"2020-01-21T11:50:41","DirectionNum":"0","StartTime":"2020-01-21T11:27:00","EndTime":"2020-01-21T11:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110913020"},{"ScheduleTime":"2020-01-21T11:57:34","DirectionNum":"0","StartTime":"2020-01-21T11:48:00","EndTime":"2020-01-21T12:47:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110101020"},{"ScheduleTime":"2020-01-21T12:09:34","DirectionNum":"0","StartTime":"2020-01-21T12:00:00","EndTime":"2020-01-21T12:59:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110098020"},{"ScheduleTime":"2020-01-21T12:10:41","DirectionNum":"0","StartTime":"2020-01-21T11:47:00","EndTime":"2020-01-21T12:12:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110912020"},{"ScheduleTime":"2020-01-21T12:21:34","DirectionNum":"0","StartTime":"2020-01-21T12:12:00","EndTime":"2020-01-21T13:11:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110102020"},{"ScheduleTime":"2020-01-21T12:30:41","DirectionNum":"0","StartTime":"2020-01-21T12:07:00","EndTime":"2020-01-21T12:32:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110911020"},{"ScheduleTime":"2020-01-21T12:33:34","DirectionNum":"0","StartTime":"2020-01-21T12:24:00","EndTime":"2020-01-21T13:23:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110103020"},{"ScheduleTime":"2020-01-21T12:45:34","DirectionNum":"0","StartTime":"2020-01-21T12:36:00","EndTime":"2020-01-21T13:35:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110104020"},{"ScheduleTime":"2020-01-21T12:50:41","DirectionNum":"0","StartTime":"2020-01-21T12:27:00","EndTime":"2020-01-21T12:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110910020"},{"ScheduleTime":"2020-01-21T12:57:34","DirectionNum":"0","StartTime":"2020-01-21T12:48:00","EndTime":"2020-01-21T13:47:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110105020"},{"ScheduleTime":"2020-01-21T13:09:34","DirectionNum":"0","StartTime":"2020-01-21T13:00:00","EndTime":"2020-01-21T13:59:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110106020"},{"ScheduleTime":"2020-01-21T13:10:41","DirectionNum":"0","StartTime":"2020-01-21T12:47:00","EndTime":"2020-01-21T13:12:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110909020"},{"ScheduleTime":"2020-01-21T13:21:34","DirectionNum":"0","StartTime":"2020-01-21T13:12:00","EndTime":"2020-01-21T14:11:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110107020"},{"ScheduleTime":"2020-01-21T13:30:41","DirectionNum":"0","StartTime":"2020-01-21T13:07:00","EndTime":"2020-01-21T13:32:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110908020"},{"ScheduleTime":"2020-01-21T13:33:34","DirectionNum":"0","StartTime":"2020-01-21T13:24:00","EndTime":"2020-01-21T14:23:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110108020"},{"ScheduleTime":"2020-01-21T13:45:34","DirectionNum":"0","StartTime":"2020-01-21T13:36:00","EndTime":"2020-01-21T14:35:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110109020"},{"ScheduleTime":"2020-01-21T13:50:41","DirectionNum":"0","StartTime":"2020-01-21T13:27:00","EndTime":"2020-01-21T13:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110907020"},{"ScheduleTime":"2020-01-21T13:57:34","DirectionNum":"0","StartTime":"2020-01-21T13:48:00","EndTime":"2020-01-21T14:47:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110110020"},{"ScheduleTime":"2020-01-21T14:10:41","DirectionNum":"0","StartTime":"2020-01-21T13:47:00","EndTime":"2020-01-21T14:12:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110906020"},{"ScheduleTime":"2020-01-21T14:10:42","DirectionNum":"0","StartTime":"2020-01-21T14:00:00","EndTime":"2020-01-21T15:08:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110149020"},{"ScheduleTime":"2020-01-21T14:22:42","DirectionNum":"0","StartTime":"2020-01-21T14:12:00","EndTime":"2020-01-21T15:20:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110111020"},{"ScheduleTime":"2020-01-21T14:30:41","DirectionNum":"0","StartTime":"2020-01-21T14:07:00","EndTime":"2020-01-21T14:32:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110965020"},{"ScheduleTime":"2020-01-21T14:34:42","DirectionNum":"0","StartTime":"2020-01-21T14:24:00","EndTime":"2020-01-21T15:32:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110112020"},{"ScheduleTime":"2020-01-21T14:46:42","DirectionNum":"0","StartTime":"2020-01-21T14:36:00","EndTime":"2020-01-21T15:44:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110113020"},{"ScheduleTime":"2020-01-21T14:50:41","DirectionNum":"0","StartTime":"2020-01-21T14:27:00","EndTime":"2020-01-21T14:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110964020"},{"ScheduleTime":"2020-01-21T14:58:42","DirectionNum":"0","StartTime":"2020-01-21T14:48:00","EndTime":"2020-01-21T15:56:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110114020"},{"ScheduleTime":"2020-01-21T15:10:41","DirectionNum":"0","StartTime":"2020-01-21T14:47:00","EndTime":"2020-01-21T15:12:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110963020"},{"ScheduleTime":"2020-01-21T15:10:58","DirectionNum":"0","StartTime":"2020-01-21T15:00:00","EndTime":"2020-01-21T16:13:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110115020"},{"ScheduleTime":"2020-01-21T15:22:58","DirectionNum":"0","StartTime":"2020-01-21T15:12:00","EndTime":"2020-01-21T16:25:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110116020"},{"ScheduleTime":"2020-01-21T15:30:41","DirectionNum":"0","StartTime":"2020-01-21T15:07:00","EndTime":"2020-01-21T15:32:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110962020"},{"ScheduleTime":"2020-01-21T15:34:58","DirectionNum":"0","StartTime":"2020-01-21T15:24:00","EndTime":"2020-01-21T16:37:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110117020"},{"ScheduleTime":"2020-01-21T15:46:58","DirectionNum":"0","StartTime":"2020-01-21T15:36:00","EndTime":"2020-01-21T16:49:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110118020"},{"ScheduleTime":"2020-01-21T15:52:49","DirectionNum":"0","StartTime":"2020-01-21T15:29:00","EndTime":"2020-01-21T15:54:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110961020"},{"ScheduleTime":"2020-01-21T15:58:58","DirectionNum":"0","StartTime":"2020-01-21T15:48:00","EndTime":"2020-01-21T17:01:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110120020"},{"ScheduleTime":"2020-01-21T16:10:58","DirectionNum":"0","StartTime":"2020-01-21T16:00:00","EndTime":"2020-01-21T17:13:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110121020"},{"ScheduleTime":"2020-01-21T16:12:49","DirectionNum":"0","StartTime":"2020-01-21T15:49:00","EndTime":"2020-01-21T16:14:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110960020"},{"ScheduleTime":"2020-01-21T16:22:58","DirectionNum":"0","StartTime":"2020-01-21T16:12:00","EndTime":"2020-01-21T17:25:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110122020"},{"ScheduleTime":"2020-01-21T16:32:49","DirectionNum":"0","StartTime":"2020-01-21T16:09:00","EndTime":"2020-01-21T16:34:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110959020"},{"ScheduleTime":"2020-01-21T16:34:58","DirectionNum":"0","StartTime":"2020-01-21T16:24:00","EndTime":"2020-01-21T17:37:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110119020"},{"ScheduleTime":"2020-01-21T16:46:58","DirectionNum":"0","StartTime":"2020-01-21T16:36:00","EndTime":"2020-01-21T17:49:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110125020"},{"ScheduleTime":"2020-01-21T16:47:49","DirectionNum":"0","StartTime":"2020-01-21T16:22:00","EndTime":"2020-01-21T16:49:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110958020"},{"ScheduleTime":"2020-01-21T16:58:58","DirectionNum":"0","StartTime":"2020-01-21T16:48:00","EndTime":"2020-01-21T18:01:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110123020"},{"ScheduleTime":"2020-01-21T17:02:49","DirectionNum":"0","StartTime":"2020-01-21T16:37:00","EndTime":"2020-01-21T17:04:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110957020"},{"ScheduleTime":"2020-01-21T17:10:58","DirectionNum":"0","StartTime":"2020-01-21T17:00:00","EndTime":"2020-01-21T18:13:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110124020"},{"ScheduleTime":"2020-01-21T17:17:49","DirectionNum":"0","StartTime":"2020-01-21T16:52:00","EndTime":"2020-01-21T17:19:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110955020"},{"ScheduleTime":"2020-01-21T17:22:58","DirectionNum":"0","StartTime":"2020-01-21T17:12:00","EndTime":"2020-01-21T18:25:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110126020"},{"ScheduleTime":"2020-01-21T17:32:49","DirectionNum":"0","StartTime":"2020-01-21T17:07:00","EndTime":"2020-01-21T17:34:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110954020"},{"ScheduleTime":"2020-01-21T17:34:58","DirectionNum":"0","StartTime":"2020-01-21T17:24:00","EndTime":"2020-01-21T18:37:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110127020"},{"ScheduleTime":"2020-01-21T17:46:58","DirectionNum":"0","StartTime":"2020-01-21T17:36:00","EndTime":"2020-01-21T18:49:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110128020"},{"ScheduleTime":"2020-01-21T17:47:49","DirectionNum":"0","StartTime":"2020-01-21T17:22:00","EndTime":"2020-01-21T17:49:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110956020"},{"ScheduleTime":"2020-01-21T17:58:58","DirectionNum":"0","StartTime":"2020-01-21T17:48:00","EndTime":"2020-01-21T19:01:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110129020"},{"ScheduleTime":"2020-01-21T18:02:49","DirectionNum":"0","StartTime":"2020-01-21T17:37:00","EndTime":"2020-01-21T18:04:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110953020"},{"ScheduleTime":"2020-01-21T18:10:42","DirectionNum":"0","StartTime":"2020-01-21T18:00:00","EndTime":"2020-01-21T19:01:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110130020"},{"ScheduleTime":"2020-01-21T18:17:49","DirectionNum":"0","StartTime":"2020-01-21T17:52:00","EndTime":"2020-01-21T18:19:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110952020"},{"ScheduleTime":"2020-01-21T18:22:42","DirectionNum":"0","StartTime":"2020-01-21T18:12:00","EndTime":"2020-01-21T19:13:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110131020"},{"ScheduleTime":"2020-01-21T18:32:49","DirectionNum":"0","StartTime":"2020-01-21T18:07:00","EndTime":"2020-01-21T18:34:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110951020"},{"ScheduleTime":"2020-01-21T18:34:42","DirectionNum":"0","StartTime":"2020-01-21T18:24:00","EndTime":"2020-01-21T19:25:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110064020"},{"ScheduleTime":"2020-01-21T18:45:26","DirectionNum":"0","StartTime":"2020-01-21T18:36:00","EndTime":"2020-01-21T19:31:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110132020"},{"ScheduleTime":"2020-01-21T18:46:58","DirectionNum":"0","StartTime":"2020-01-21T18:26:00","EndTime":"2020-01-21T18:48:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110950020"},{"ScheduleTime":"2020-01-21T18:57:26","DirectionNum":"0","StartTime":"2020-01-21T18:48:00","EndTime":"2020-01-21T19:43:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110133020"},{"ScheduleTime":"2020-01-21T19:07:58","DirectionNum":"0","StartTime":"2020-01-21T18:47:00","EndTime":"2020-01-21T19:09:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110949020"},{"ScheduleTime":"2020-01-21T19:09:26","DirectionNum":"0","StartTime":"2020-01-21T19:00:00","EndTime":"2020-01-21T19:55:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110134020"},{"ScheduleTime":"2020-01-21T19:21:26","DirectionNum":"0","StartTime":"2020-01-21T19:12:00","EndTime":"2020-01-21T20:07:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110135020"},{"ScheduleTime":"2020-01-21T19:31:58","DirectionNum":"0","StartTime":"2020-01-21T19:11:00","EndTime":"2020-01-21T19:33:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110948020"},{"ScheduleTime":"2020-01-21T19:33:26","DirectionNum":"0","StartTime":"2020-01-21T19:24:00","EndTime":"2020-01-21T20:19:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110138020"},{"ScheduleTime":"2020-01-21T19:45:26","DirectionNum":"0","StartTime":"2020-01-21T19:36:00","EndTime":"2020-01-21T20:31:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110139020"},{"ScheduleTime":"2020-01-21T19:51:07","DirectionNum":"0","StartTime":"2020-01-21T19:33:00","EndTime":"2020-01-21T19:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110947020"},{"ScheduleTime":"2020-01-21T19:57:26","DirectionNum":"0","StartTime":"2020-01-21T19:48:00","EndTime":"2020-01-21T20:43:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110136020"},{"ScheduleTime":"2020-01-21T20:09:26","DirectionNum":"0","StartTime":"2020-01-21T20:00:00","EndTime":"2020-01-21T20:55:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110140020"},{"ScheduleTime":"2020-01-21T20:15:07","DirectionNum":"0","StartTime":"2020-01-21T19:57:00","EndTime":"2020-01-21T20:16:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110946020"},{"ScheduleTime":"2020-01-21T20:21:26","DirectionNum":"0","StartTime":"2020-01-21T20:12:00","EndTime":"2020-01-21T21:07:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110141020"},{"ScheduleTime":"2020-01-21T20:33:26","DirectionNum":"0","StartTime":"2020-01-21T20:24:00","EndTime":"2020-01-21T21:19:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110142020"},{"ScheduleTime":"2020-01-21T20:39:07","DirectionNum":"0","StartTime":"2020-01-21T20:21:00","EndTime":"2020-01-21T20:40:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110945020"},{"ScheduleTime":"2020-01-21T20:45:26","DirectionNum":"0","StartTime":"2020-01-21T20:36:00","EndTime":"2020-01-21T21:31:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110143020"},{"ScheduleTime":"2020-01-21T20:57:26","DirectionNum":"0","StartTime":"2020-01-21T20:48:00","EndTime":"2020-01-21T21:43:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110057020"},{"ScheduleTime":"2020-01-21T21:03:07","DirectionNum":"0","StartTime":"2020-01-21T20:45:00","EndTime":"2020-01-21T21:04:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110944020"},{"ScheduleTime":"2020-01-21T21:09:26","DirectionNum":"0","StartTime":"2020-01-21T21:00:00","EndTime":"2020-01-21T21:55:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110061020"},{"ScheduleTime":"2020-01-21T21:21:26","DirectionNum":"0","StartTime":"2020-01-21T21:12:00","EndTime":"2020-01-21T22:07:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110144020"},{"ScheduleTime":"2020-01-21T21:27:07","DirectionNum":"0","StartTime":"2020-01-21T21:09:00","EndTime":"2020-01-21T21:28:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110943020"},{"ScheduleTime":"2020-01-21T21:33:26","DirectionNum":"0","StartTime":"2020-01-21T21:24:00","EndTime":"2020-01-21T22:19:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110145020"},{"ScheduleTime":"2020-01-21T21:45:26","DirectionNum":"0","StartTime":"2020-01-21T21:36:00","EndTime":"2020-01-21T22:31:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110146020"},{"ScheduleTime":"2020-01-21T21:51:07","DirectionNum":"0","StartTime":"2020-01-21T21:33:00","EndTime":"2020-01-21T21:52:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110942020"},{"ScheduleTime":"2020-01-21T21:57:26","DirectionNum":"0","StartTime":"2020-01-21T21:48:00","EndTime":"2020-01-21T22:43:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110147020"},{"ScheduleTime":"2020-01-21T22:08:18","DirectionNum":"0","StartTime":"2020-01-21T22:00:00","EndTime":"2020-01-21T22:49:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110148020"},{"ScheduleTime":"2020-01-21T22:15:07","DirectionNum":"0","StartTime":"2020-01-21T21:57:00","EndTime":"2020-01-21T22:16:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110941020"},{"ScheduleTime":"2020-01-21T22:20:18","DirectionNum":"0","StartTime":"2020-01-21T22:12:00","EndTime":"2020-01-21T23:01:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110066020"},{"ScheduleTime":"2020-01-21T22:32:18","DirectionNum":"0","StartTime":"2020-01-21T22:24:00","EndTime":"2020-01-21T23:13:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110058020"},{"ScheduleTime":"2020-01-21T22:39:07","DirectionNum":"0","StartTime":"2020-01-21T22:21:00","EndTime":"2020-01-21T22:40:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110940020"},{"ScheduleTime":"2020-01-21T22:44:18","DirectionNum":"0","StartTime":"2020-01-21T22:36:00","EndTime":"2020-01-21T23:25:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110150020"},{"ScheduleTime":"2020-01-21T22:56:18","DirectionNum":"0","StartTime":"2020-01-21T22:48:00","EndTime":"2020-01-21T23:37:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110151020"},{"ScheduleTime":"2020-01-21T23:03:07","DirectionNum":"0","StartTime":"2020-01-21T22:45:00","EndTime":"2020-01-21T23:04:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110939020"},{"ScheduleTime":"2020-01-21T23:08:18","DirectionNum":"0","StartTime":"2020-01-21T23:00:00","EndTime":"2020-01-21T23:49:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110045020"},{"ScheduleTime":"2020-01-21T23:20:18","DirectionNum":"0","StartTime":"2020-01-21T23:12:00","EndTime":"2020-01-22T00:01:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110046020"},{"ScheduleTime":"2020-01-21T23:25:16","DirectionNum":"0","StartTime":"2020-01-21T23:08:00","EndTime":"2020-01-21T23:26:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110938020"},{"ScheduleTime":"2020-01-21T23:32:18","DirectionNum":"0","StartTime":"2020-01-21T23:24:00","EndTime":"2020-01-22T00:13:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110059020"},{"ScheduleTime":"2020-01-21T23:44:18","DirectionNum":"0","StartTime":"2020-01-21T23:36:00","EndTime":"2020-01-22T00:25:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110047020"},{"ScheduleTime":"2020-01-21T23:49:16","DirectionNum":"0","StartTime":"2020-01-21T23:32:00","EndTime":"2020-01-21T23:50:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110937020"},{"ScheduleTime":"2020-01-21T23:56:18","DirectionNum":"0","StartTime":"2020-01-21T23:48:00","EndTime":"2020-01-22T00:37:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110048020"},{"ScheduleTime":"2020-01-22T00:08:18","DirectionNum":"0","StartTime":"2020-01-22T00:00:00","EndTime":"2020-01-22T00:49:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110060020"},{"ScheduleTime":"2020-01-22T00:13:16","DirectionNum":"0","StartTime":"2020-01-21T23:56:00","EndTime":"2020-01-22T00:14:00","RouteID":"74","TripDirectionText":"NORTH","TripHeadsign":"CONVENTION
+        CENTER","TripID":"1110936020"},{"ScheduleTime":"2020-01-22T00:21:55","DirectionNum":"0","StartTime":"2020-01-22T00:15:00","EndTime":"2020-01-22T00:54:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110050020"},{"ScheduleTime":"2020-01-22T00:36:55","DirectionNum":"0","StartTime":"2020-01-22T00:30:00","EndTime":"2020-01-22T01:09:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110051020"},{"ScheduleTime":"2020-01-22T00:51:55","DirectionNum":"0","StartTime":"2020-01-22T00:45:00","EndTime":"2020-01-22T01:24:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110049020"},{"ScheduleTime":"2020-01-22T01:11:55","DirectionNum":"0","StartTime":"2020-01-22T01:05:00","EndTime":"2020-01-22T01:44:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110052020"},{"ScheduleTime":"2020-01-22T01:31:55","DirectionNum":"0","StartTime":"2020-01-22T01:25:00","EndTime":"2020-01-22T02:04:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110053020"},{"ScheduleTime":"2020-01-22T01:51:55","DirectionNum":"0","StartTime":"2020-01-22T01:45:00","EndTime":"2020-01-22T02:24:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110054020"},{"ScheduleTime":"2020-01-22T02:21:55","DirectionNum":"0","StartTime":"2020-01-22T02:15:00","EndTime":"2020-01-22T02:54:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110055020"},{"ScheduleTime":"2020-01-22T02:50:39","DirectionNum":"0","StartTime":"2020-01-22T02:45:00","EndTime":"2020-01-22T03:20:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110063020"},{"ScheduleTime":"2020-01-22T03:20:39","DirectionNum":"0","StartTime":"2020-01-22T03:15:00","EndTime":"2020-01-22T03:50:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110056020"},{"ScheduleTime":"2020-01-22T03:50:39","DirectionNum":"0","StartTime":"2020-01-22T03:45:00","EndTime":"2020-01-22T04:20:00","RouteID":"70","TripDirectionText":"NORTH","TripHeadsign":"SILVER
+        SPRING STATION","TripID":"1110062020"}]}'
+    http_version: 
+  recorded_at: Tue, 21 Jan 2020 17:16:18 GMT
+recorded_with: VCR 5.0.0

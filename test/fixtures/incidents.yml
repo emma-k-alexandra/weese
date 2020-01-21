@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wmata.com/Incidents.svc/json/Incidents?StationCode=A01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.3
+      api_key:
+      - 9e38c3eab34c4e6c990828002828f5ed
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - no-store, must-revalidate, no-cache
+      pragma:
+      - no-cache
+      content-length:
+      - '136'
+      content-type:
+      - application/json; charset=utf-8
+      expires:
+      - Tue, 21 Jan 2020 17:16:19 GMT
+      vary:
+      - Accept-Encoding
+      arr-disable-session-affinity:
+      - 'True'
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      date:
+      - Tue, 21 Jan 2020 17:16:18 GMT
+      connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Incidents":[]}'
+    http_version: 
+  recorded_at: Tue, 21 Jan 2020 17:16:18 GMT
+recorded_with: VCR 5.0.0

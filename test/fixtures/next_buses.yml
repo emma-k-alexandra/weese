@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.wmata.com/NextBusService.svc/json/jPredictions?StopID=1001195
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.17.3
+      api_key:
+      - 9e38c3eab34c4e6c990828002828f5ed
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      cache-control:
+      - no-store, must-revalidate, no-cache
+      pragma:
+      - no-cache
+      content-length:
+      - '367'
+      content-type:
+      - application/json; charset=utf-8
+      expires:
+      - Tue, 21 Jan 2020 17:16:18 GMT
+      vary:
+      - Accept-Encoding
+      set-cookie:
+      - ai_session=5c5e663b493d40ffbb09d3d119acc0a5|2020-01-21T17:16:18.8788617+00:00|2020-01-21T17:16:18.9101127+00:00;
+        expires=Tue, 21-Jan-2020 17:46:18 GMT; path=/, ai_user=c62be07368d24051a23e0933e278f4c8|2020-01-21T17:16:18.8788617+00:00;
+        expires=Fri, 31-Dec-9999 23:59:59 GMT; path=/
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      arr-disable-session-affinity:
+      - 'True'
+      date:
+      - Tue, 21 Jan 2020 17:16:18 GMT
+      connection:
+      - close
+    body:
+      encoding: ASCII-8BIT
+      string: '{"StopName":"7th St + Massachusetts Ave","Predictions":[{"RouteID":"70","DirectionText":"North
+        to Silver Spring Station","DirectionNum":"0","Minutes":2,"VehicleID":"5446","TripID":"1162797020"},{"RouteID":"74","DirectionText":"North
+        to Convention Center","DirectionNum":"0","Minutes":9,"VehicleID":"8092","TripID":"1163606020"},{"RouteID":"74","DirectionText":"North
+        to Convention Center","DirectionNum":"0","Minutes":26,"VehicleID":"8076","TripID":"1163605020"},{"RouteID":"70","DirectionText":"North
+        to Silver Spring Station","DirectionNum":"0","Minutes":27,"VehicleID":"5435","TripID":"1162799020"},{"RouteID":"70","DirectionText":"North
+        to Silver Spring Station","DirectionNum":"0","Minutes":38,"VehicleID":"5441","TripID":"1162800020"}]}'
+    http_version: 
+  recorded_at: Tue, 21 Jan 2020 17:16:18 GMT
+recorded_with: VCR 5.0.0
